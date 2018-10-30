@@ -39,7 +39,7 @@ function keyPressed() {
 
 <body>
     <div id="code" class="container-fluid">
-        <script src="https://gist-it.appspot.com/github/mahmoudb0647/p5js/blob/master/torus.html?footer=0"></script>
+        <script src="https://gist-it.appspot.com/github/mahmoudb0647/p5js/blob/master/interaction.html?footer=0"></script>
     </div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
