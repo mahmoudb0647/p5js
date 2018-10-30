@@ -1,4 +1,20 @@
 
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+    <title>p5js Template</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js"></script>
+    <script>
+var belmin //variable used for torus
+
+
+function setup() {
+  createCanvas(500, 500, WEBGL);
+belmin = 0.01
+}
+
+
 function draw() {
   background(random(255),random(255),random(255)); //background color
   rotateX(frameCount * belmin); //the X rotation of the torus * the variable i created priror
