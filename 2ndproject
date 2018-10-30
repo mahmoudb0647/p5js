@@ -1,0 +1,38 @@
+
+function draw() {
+  background(random(255),random(255),random(255)); //background color
+  rotateX(frameCount * belmin); //the X rotation of the torus * the variable i created priror
+  rotateY(frameCount * belmin); //the Y rotation of the torus * the variable i created priror
+  torus(mouseX, mouseY) // the size of the torus is set to the coordinates of the mouse
+}
+
+
+function mousePressed() {
+    strokeWeight(10) //setting stroke weight to 10
+    fill(random(255),random(255),random(255)) //creates the random color when mouse pressed
+}
+
+
+function keyPressed() {
+    belmin=+0.1 // everytime key is pressed te rotation of the torusa increases
+   
+}
+
+    </script>
+</head>
+
+<body>
+    <div id="code" class="container-fluid">
+        <script src="https://gist-it.appspot.com/github/mahmoudb0647/p5js/blob/master/2ndProject.html?footer=0"></script>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script>
+        $(window).bind("load", function() {
+            $('#code').before($('#defaultCanvas0').remove());
+        });
+    </script>
+</body>
+
+
+</html>
